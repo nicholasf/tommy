@@ -1,4 +1,4 @@
-Tommy The Tank Engine is a simple Rails 3 engine.
+Tommy The Rails 3 Engine is a simple Rails 3 engine.
 
 Finding information about how to build Engines for Rails 3 has been difficult. 
 
