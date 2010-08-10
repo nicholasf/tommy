@@ -7,7 +7,9 @@ This engine demonstrates:
 * simple MVC engine behaviour
 * copying of static assets into host Rails app
 * the generation of a migration into host app
-* the expression of the Engines Gemfile dependencies in the host app.s dependencies.
+* expressing engine gem dependencies in the host app (see below).
+
+Unfortunately, there doesn't seem to be a way to dynamically load Gemfiles. It would be ideal if the tommy_station Gemfile could load the Gemfile or (Gemfile.lock) which is bundled in the Tommy gem. For now, I set a dependency in Jeweler and then require whatever library I need in lib/tommy/engine. See the dependency on Inherited Resources.
 
 INSTALL
 
