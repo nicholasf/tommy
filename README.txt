@@ -15,6 +15,10 @@ INSTALL
 
 Clone the project from github.
 
+rake install
+
+gem install pkg/tommy-0.1.gem 
+
 cd into tommy_station (the Rails 3 host app).
 
 bundle install
