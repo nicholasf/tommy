@@ -2,10 +2,6 @@ require 'rails/generators'
 
 class TommyGenerator < Rails::Generators::Base
   include Rails::Generators::Migration
-  
-  # def self.source_root
-  #    @source_root ||= File.join(File.dirname(__FILE__), 'templates')
-  # end
 
   source_root File.expand_path("../templates", __FILE__)
   
@@ -22,4 +18,6 @@ class TommyGenerator < Rails::Generators::Base
    def create_migration_file
      migration_template 'create_messages.rb', 'db/migrate/create_messages.rb'
    end
+   
+   
 end

@@ -1,3 +1,3 @@
 Rails.application.routes.draw do |map|
-  resources :messages, :controller => 'messages'
+  resources :messages, :controller => 'messages', :only => [:new, :create, :show]
 end
