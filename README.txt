@@ -24,3 +24,7 @@ rails server
 
 Then visit http://localhost:3000/messages/new
 
+CREDIT
+
+Most of this was written by following The Modest Rubyist at http://www.themodestrubyist.com/2010/03/01/rails-3-plugins---part-1---the-big-picture/ and looking through Devise source code.
+
