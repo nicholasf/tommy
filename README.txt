@@ -15,7 +15,12 @@ Clone the project from github.
 
 cd into tommy_station (the Rails 3 host app).
 
-Run 'rails generate tommy' to generate the migration of a message model for Tommy to say something.
+bundle install
 
-Visit http://localhost:3000/messages/new
+rake generate tommy
+
+rails server
+
+
+Then visit http://localhost:3000/messages/new
 
