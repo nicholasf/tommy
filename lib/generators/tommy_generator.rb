@@ -16,6 +16,4 @@ class TommyGenerator < Rails::Generators::Base
    def create_migration_file
      migration_template 'create_messages.rb', 'db/migrate/create_messages.rb'
    end
-   
-   
 end
