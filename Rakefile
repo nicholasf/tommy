@@ -10,6 +10,7 @@ begin
     gem.files =  FileList["[A-Z]*", "{app,config,lib}/**/*"]
     gem.extra_rdoc_files = FileList["[A-Z]*"] - %w(Gemfile Rakefile)
     gem.add_dependency("inherited_resources")
+    
   end
 rescue
   puts "Jeweler or one of its dependencies is not installed."
