@@ -5,10 +5,13 @@
 3. Engine file - middleware for public assets.
 
 4. Rakefile - jeweller for the gem. 
- - You need the gem to run the engine in the app. the first time.
+ - You need the gem to run the engine in the app. the first time. 'rake install'.
  - Afterwards use a relative path from the host app Gemfile.
 
 5. The generator for migrations.
 
 6. Rake tasks included automatically from lib/tasks
 
+7. Configure tests using symlinks.
+
+http://localhost:3000/messages/new
