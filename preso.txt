@@ -1,0 +1,14 @@
+1. Standard Rails layout
+
+2. Create a Rails application to host and test it.
+
+3. Engine file - middleware for public assets.
+
+4. Rakefile - jeweller for the gem. 
+ - You need the gem to run the engine in the app. the first time.
+ - Afterwards use a relative path from the host app Gemfile.
+
+5. The generator for migrations.
+
+6. Rake tasks included automatically from lib/tasks
+
